@@ -1,0 +1,13 @@
+#!/bin/bash
+
+sudo apt update
+
+sudo apt install vlc vlc-bin and vlc-plugin-base
+
+# cd to user home directory, we assume it is in the same directory nod-red is in.
+cd ../$USER
+
+# Install most used nodes for node-red
+
+npm install node-red-contrib-dsm
+npm install node-red-contrib-osc
