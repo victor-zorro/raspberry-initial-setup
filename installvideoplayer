@@ -14,4 +14,4 @@ npm install node-red-contrib-osc
 npm install node-red-contrib-pjlink
 npm install node-red-contrib-artnet
 
-sudo systemctl reload nodered.service
+sudo systemctl restart nodered.service
