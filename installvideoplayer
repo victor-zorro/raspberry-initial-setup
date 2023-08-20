@@ -2,7 +2,7 @@
 
 apt update
 
-sudo apt install -y vlc vlc-bin vlc-plugin-base i2c-tools mosquitto
+apt install -y vlc vlc-bin vlc-plugin-base i2c-tools mosquitto
 
 # cd to user home directory, we assume it is in the same directory nod-red is in.
 cd $HOME/.node-red
