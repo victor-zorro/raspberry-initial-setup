@@ -12,6 +12,6 @@ cd $HOME/.node-red
 npm install node-red-contrib-dsm
 npm install node-red-contrib-osc
 npm install node-red-contrib-pjlink
-npm install node-red-contrib-themes/theme-collection
+npm install @node-red-contrib-themes/theme-collection
 
 systemctl restart nodered.service
