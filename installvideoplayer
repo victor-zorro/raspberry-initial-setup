@@ -1,6 +1,5 @@
 #!/bin/bash
 
-sudo su
 apt update
 
 apt install vlc vlc-bin and vlc-plugin-base
