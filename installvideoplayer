@@ -2,16 +2,18 @@
 
 apt update
 
-sudo apt install -y vlc vlc-bin vlc-plugin-base i2c-tools mosquitto
+sudo apt install -y vlc vlc-bin vlc-plugin-base mosquitto
 
 # cd to user home directory, we assume it is in the same directory nod-red is in.
 cd $HOME/.node-red
 
 # Install most used nodes for node-red
 
+npm install @node-red-contrib-themes/theme-collection
 npm install node-red-contrib-dsm
+npm install node-red-dashboard
 npm install node-red-contrib-osc
 npm install node-red-contrib-pjlink
-npm install @node-red-contrib-themes/theme-collection
+
 
 systemctl restart nodered.service
