@@ -16,6 +16,7 @@ npm install node-red-contrib-osc
 npm install node-red-contrib-pjlink
 npm install node-red-contrib-boolean-logic-ultimate
 npm install node-red-contrib-simple-gate
+npm install node-red-contrib-noop
 
 
 systemctl restart nodered.service
