@@ -9,14 +9,6 @@ cd $HOME/.node-red
 
 # Install most used nodes for node-red
 
-npm install @node-red-contrib-themes/theme-collection
-npm install node-red-contrib-dsm
-npm install node-red-dashboard
-npm install node-red-contrib-osc
-npm install node-red-contrib-pjlink
-npm install node-red-contrib-boolean-logic-ultimate
-npm install node-red-contrib-simple-gate
-npm install node-red-contrib-noop
+npm install @node-red-contrib-themes/theme-collection node-red-contrib-dsm node-red-dashboard node-red-contrib-osc node-red-contrib-pjlink node-red-contrib-boolean-logic-ultimate node-red-contrib-simple-gate node-red-contrib-noop
 
-
-systemctl restart nodered.service
+sudo systemctl restart nodered.service
