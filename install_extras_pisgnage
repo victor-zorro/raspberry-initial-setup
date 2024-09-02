@@ -1,0 +1,14 @@
+#!/bin/bash
+
+sudo apt update
+
+sudo apt install -y ddcutil mosquitto
+
+# cd to user home directory, we assume it is in the same directory nod-red is in.
+cd $HOME/.node-red
+
+# Install most used nodes for node-red
+
+npm install @node-red-contrib-themes/theme-collection node-red-contrib-dsm node-red-dashboard node-red-contrib-osc node-red-contrib-pjlink node-red-contrib-boolean-logic-ultimate node-red-contrib-simple-gate node-red-contrib-noop
+
+sudo systemctl restart nodered.service
